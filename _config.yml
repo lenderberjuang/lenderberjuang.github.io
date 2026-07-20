@@ -3,7 +3,11 @@ description: >-
   Update perkembangan kasus, proses hukum, dan advokasi untuk komunitas lender
   yang terdampak. Ditulis untuk membantu sesama korban memahami langkah dan
   hak mereka.
-theme: minima
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # Menu navigasi di bagian atas web
 header_pages:
@@ -14,6 +18,27 @@ header_pages:
 permalink: /:year/:month/:day/:title/
 
 # Plugin bawaan GitHub Pages yang aman dipakai tanpa install tambahan
+
+minimal_mistakes_skin: "default"
+
+author:
+  name: "Lender Berjuang"
+  bio: "Update perkembangan kasus dan proses hukum DSI"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
