@@ -9,6 +9,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+  
+
 # Menu navigasi di bagian atas web
 header_pages:
   - about.md
@@ -42,6 +44,5 @@ defaults:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
 # Ganti sesuai username GitHub kamu setelah upload
 # url: "https://USERNAME-KAMU.github.io"
