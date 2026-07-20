@@ -1,9 +1,9 @@
 ---
 layout: home
-title: Beranda
 ---
+Beranda
 
-Selamat datang di **Lender Berjuang** — ruang informasi untuk komunitas lender yang mengikuti dan mendukung proses hukum kasus ini.
+Selamat datang di **Lender Berjuang**, ruang informasi untuk komunitas lender yang mengikuti dan mendukung proses hukum kasus ini.
 
 Di sini kamu bisa membaca kronologi kasus, perkembangan proses hukum terkini, dan langkah-langkah yang bisa diambil bersama.
 
